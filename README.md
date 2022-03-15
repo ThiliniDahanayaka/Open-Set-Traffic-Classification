@@ -18,3 +18,9 @@ Underlying CNN models:
 2. DC: CNN model from https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8548317
 3. SETA: CNN model defined in this code repo
 4. IOT: CNN model from https://github.com/SmartHomePrivacyProject/DeepVCFingerprinting (sample represented with both size and direction)
+
+Dataset splits (for datasets without explicit open set) can be founf in the folder Dataset_splits
+
+Code used for Softmax thresholding is in OpenMax/<Dataset name>/closed/open_softmax_thresh.py
+  
+All methods except CAC is implemented using Tensorflow/Keras, while CAC uses Pytorch (code used is taken from original work). 
