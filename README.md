@@ -21,6 +21,6 @@ Underlying CNN models:
 
 Dataset splits (for datasets without explicit open set) can be founf in the folder Dataset_splits
 
-Code used for Softmax thresholding is in OpenMax/<Dataset name>/closed/open_softmax_thresh.py
+Code used for Softmax thresholding is in OpenMax/'Dataset name'/closed/open_softmax_thresh.py
   
 All methods except CAC is implemented using Tensorflow/Keras, while CAC uses Pytorch (code used is taken from original work). 
