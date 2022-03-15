@@ -16,4 +16,5 @@ Datasets:
 Underlying CNN models:
 1. AWF and DF datasets: CNN model from https://github.com/deep-fingerprinting/df
 2. DC: CNN model from https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8548317
-3. IOT: CNN model from https://github.com/SmartHomePrivacyProject/DeepVCFingerprinting (sample represented with both size and direction)
+3. SETA: CNN model defined in this code repo
+4. IOT: CNN model from https://github.com/SmartHomePrivacyProject/DeepVCFingerprinting (sample represented with both size and direction)
