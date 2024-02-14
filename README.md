@@ -1,6 +1,6 @@
 # Open Set Traffic Classification: Are we there yet?
 
-This is the source code used in the research paper 'Open Set Traffic Classification: Are we there yet?', currently under review for ACM SIGCOMM CCR 2022.
+This is the source code used in the research paper 'Robust open-set classification for encrypted traffic fingerprinting', published in _Computer Networks_ 236 (2023).
 
 ## Description
 
