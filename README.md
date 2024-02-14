@@ -4,7 +4,7 @@ This is the source code used in the research paper 'Open Set Traffic Classificat
 
 ## Description
 
-This work evaluates several open set classificatoin methods on five network traffic fingerprinting datasets.
+This work evaluates several open-set classification methods on five network traffic fingerprinting datasets.
 
 Datasets:
 1. AWF: https://github.com/DistriNet/DLWF
@@ -19,8 +19,8 @@ Underlying CNN models:
 3. SETA: CNN model defined in this code repo
 4. IOT: CNN model from https://github.com/SmartHomePrivacyProject/DeepVCFingerprinting (sample represented with both size and direction)
 
-Dataset splits (for datasets without explicit open set) can be founf in the folder Dataset_splits
+Dataset splits (for datasets without explicit open set) can be found in the folder Dataset_splits
 
-Code used for Softmax thresholding is in OpenMax/'Dataset name'/closed/open_softmax_thresh.py
+The code used for Softmax thresholding is in OpenMax/'Dataset name'/closed/open_softmax_thresh.py
   
-All methods except CAC is implemented using Tensorflow/Keras, while CAC uses Pytorch (code used is taken from original work). 
+All methods except CAC are implemented using Tensorflow/Keras, while CAC uses Pytorch (the code used is taken from the original work). 
