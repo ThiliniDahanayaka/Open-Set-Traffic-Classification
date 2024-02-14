@@ -1,4 +1,4 @@
-# Open Set Traffic Classification: Are we there yet?
+# Robust open-set classification for encrypted traffic fingerprinting
 
 This is the source code used in the research paper 'Robust open-set classification for encrypted traffic fingerprinting', published in _Computer Networks_ (2023).
 
