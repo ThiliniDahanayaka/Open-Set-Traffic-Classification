@@ -23,4 +23,12 @@ Dataset splits (for datasets without explicit open set) can be found in the fold
 
 The code used for Softmax thresholding is in OpenMax/'Dataset name'/closed/open_softmax_thresh.py
   
-All methods except CAC are implemented using Tensorflow/Keras, while CAC uses Pytorch (the code used is taken from the original work). 
+All methods except CAC are implemented using Tensorflow/Keras, while CAC uses Pytorch (the code used is taken from the original work).
+
+## Experiments
+
+Please find the code of the kLND method and other methods in the Experiments folder. Make sure you download and place the datasets in relevant places.
+
+## Discussion
+
+We believe that quantized traffic fingerprinting is very useful for future forensic studies as the number of edge devices increase exponentially. Many of these devices doesn't support floating point arithmetic. Therefore, to deploy ML based security applications, we have to use quantization which is quite challenging when it comes to the open-world problem. So, exploring more on this topic is important.
